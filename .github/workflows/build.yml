@@ -22,4 +22,4 @@ jobs:
           args: build --rm-dist --snapshot
         env:
           GOOS: 'android'
-          CGO_ENABLED:1
+          CGO_ENABLED: 1
